@@ -8,7 +8,7 @@ const Home = () => {
   return(
   <div className="home">
   <div className="producConatainer">{products.map((prod)=>{
-   return  <span>{prod.name}</span>;
+   return  <span>{prod.name}</span>; </div>
   }}}
    </div>
 
